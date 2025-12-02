@@ -18,12 +18,12 @@ nav {
     padding: 1vw 8vw;
 }
 
-h1 {
+header h1{
     width: 200px;
     height: auto;
 }
 
-ul {
+header ul {
     display: flex;
     gap: 2vw;
 }
@@ -34,7 +34,7 @@ a {
     font-size: 1.4rem;
 }
 
-a.atual {
+header a.atual {
     background-color: #cc6e3a;
     padding: 10px 20px;
     border-radius: 20px;
@@ -130,13 +130,27 @@ footer .rodape {
 @media only screen and (max-width: 600px){
 
 
-    header a{
-        font-size: 0.8rem;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 5vw;
+        margin-bottom: 2vw;
     }
-    .atual {
+    nav{
+        display: block;
+    }
+    header a{
+        font-size: 1.1rem;
+    }
+    header a.atual {
     background-color: #cc6e3a;
     padding: 5px 10px;
     border-radius: 20px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
     }
     .banner div h2 {
     font-size: 1.5rem;
