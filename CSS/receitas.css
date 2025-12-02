@@ -27,7 +27,7 @@ ul.menu {
     gap: 2vw;
 }
 
-a {
+header a {
     color: #f7f5f0;
     font-weight: bold;
     font-size: 1.4rem;
@@ -67,20 +67,18 @@ p.topo {
     padding: 2vw 0 0 0;
 }
 
-img {
+.fotos img {
     width: 25vw;
     height: auto;
     border-radius: 15px;
     margin-bottom: 1vw;
 }
-
-div.fotos {
+.fotos {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 4vw 4vw 4vw 4vw;
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
 }
-
 h4 {
     color: #4a7c59;
     font-size: 2rem;
@@ -105,7 +103,7 @@ h5 {
     font-weight: bold;
 }
 
-p{
+section p{
     color: #5a4634;
     font-size: 1.3rem;
     line-height: 2rem;
@@ -115,7 +113,7 @@ p{
 
 /*footer*/
 
-footer {
+footer{
     background-color: #88b990;
     padding: 2vw 5vw;
     text-align: center;
@@ -140,6 +138,10 @@ footer .rodape {
     justify-content: space-between;
     padding: 3vw 0 0 0;
 }
+.rodape p{
+    color: #f7f5f0;
+}
+
 @media only screen and (max-width: 600px) {
 
 
@@ -164,5 +166,48 @@ footer .rodape {
     .logo{
         display: flex;
         justify-content: center;
+    }
+    h2{
+        margin-top: 5vw;
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.4rem;
+        text-align: justify;
+        padding: 0 4vw;
+    }
+    p.topo{
+        font-size: 1.1rem;
+        line-height: 30px;
+        text-align: justify;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    p.descricao {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    section p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .fotos img{
+        width: 30vw;
+    }
+    footer a, footer p{
+        font-size: 0.8rem;
+        padding: 1vw;
+    }
+    footer .rodape{
+        display: block;
+    }
+    footer .redes svg  {
+    width: 40px;
+    height: auto;
+    margin-bottom: 1vw;
+    }
+    .rodape p{
+        padding-bottom: 3vw;
     }
 }
