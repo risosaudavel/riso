@@ -285,4 +285,9 @@ footer .rodape {
     .rodape p{
         padding-bottom: 3vw;
     }
+    iframe{
+        width: 330px;
+        height: 200px;
+        border-radius: 20px;
+    }
 }

@@ -170,6 +170,9 @@ div.video{
     padding: 1vw;
     border-radius: 20px
 }
+iframe{
+    border-radius: 20px;
+}
 
 /*FOOTER*/
 
@@ -296,5 +299,10 @@ footer a {
     }
     .rodape p{
         padding-bottom: 3vw;
+    }
+    iframe{
+        width: 330px;
+        height: 200px;
+        border-radius: 20px;
     }
 }
