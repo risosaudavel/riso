@@ -183,7 +183,7 @@ footer .rodape {
     header a{
         font-size: 1.1rem;
     }
-    .atual {
+    header a.atual{
     background-color: #cc6e3a;
     padding: 5px 10px;
     border-radius: 20px;
