@@ -144,7 +144,6 @@ footer .rodape {
 
 @media only screen and (max-width: 600px) {
 
-
     ul{
         display: flex;
         flex-wrap: wrap;
