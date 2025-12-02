@@ -101,8 +101,7 @@ footer .rodape {
     justify-content: space-between;
     padding: 3vw 0 0 0;
 }
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 600px){
 
     ul{
         display: flex;
@@ -116,14 +115,38 @@ footer .rodape {
     }
     header a{
         font-size: 1.1rem;
+        padding: 0 0 3vw 0;
     }
-    .atual {
-    background-color: #cc6e3a;
+    a.atual {
     padding: 5px 10px;
-    border-radius: 20px;
     }
     .logo{
         display: flex;
         justify-content: center;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+
+    footer a, footer p{
+        font-size: 0.8rem;
+        padding: 1vw;
+    }
+    footer .rodape{
+        display: block;
+    }
+    footer .redes svg  {
+    width: 40px;
+    height: auto;
+    margin-bottom: 1vw;
+    }
+    .rodape p{
+        padding-bottom: 3vw;
     }
 }
