@@ -22,13 +22,22 @@ header h1{
     width: 200px;
     height: auto;
 }
-
+header button.voltar:hover {
+    background: #649c6d;
+}
+header button.voltar{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
 header ul {
     display: flex;
     gap: 2vw;
+    align-items: center;
 }
 
-a {
+header a {
     color: #f7f5f0;
     font-weight: bold;
     font-size: 1.4rem;
@@ -88,7 +97,7 @@ h3{
     color: #5a4634;
     font-weight: bold; 
 }
-.projeto a{
+.projeto button{
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
@@ -99,10 +108,17 @@ h3{
     text-decoration: none;
     border-radius: 20px;
 }
+button:hover {
+    background: #d19270;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
 
 /*footer*/
 
-footer {
+footer{
     background-color: #88b990;
     padding: 2vw 5vw;
     text-align: center;
@@ -116,16 +132,35 @@ footer .redes {
     align-items: center;
 }
 
-footer .redes svg {
+footer .redes button {
     width: 4vw;
     height: auto;
     margin-bottom: 1vw;
 }
-
+footer button:hover {
+    background: #649c6d;
+}
+footer button{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+footer button.voltar:hover {
+    background: #649c6d;
+}
+footer button.voltar{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
 footer .rodape {
     display: flex;
     justify-content: space-between;
     padding: 3vw 0 0 0;
+}
+.rodape p{
+    color: #f7f5f0;
 }
 
 @media only screen and (max-width: 600px){
@@ -210,5 +245,8 @@ footer .rodape {
     }
     .rodape p{
         padding-bottom: 3vw;
+    }
+    .projeto button{
+        padding: 3vw 4vw;
     }
 }

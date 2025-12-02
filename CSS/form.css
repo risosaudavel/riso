@@ -24,13 +24,23 @@ h1 {
     width: 200px;
     height: auto;
 }
+header button.voltar:hover {
+    background: #649c6d;
+}
+header button.voltar{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
 
 ul {
     display: flex;
     gap: 2vw;
+    align-items: center;
 }
 
-a {
+header a {
     color: #f7f5f0;
     font-weight: bold;
     font-size: 1.4rem;
@@ -98,7 +108,7 @@ form{
     margin: 2vw;
 }
 
-button {
+.buttons button {
     background: #CC6E3A;
     color: white;
     padding: 22px 40px;
@@ -109,7 +119,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.buttons button:hover {
     background: #d19270;
 }
 
@@ -140,8 +150,7 @@ button:hover {
 
 /*footer*/
 
-
-footer {
+footer{
     background-color: #88b990;
     padding: 2vw 5vw;
     text-align: center;
@@ -154,16 +163,36 @@ footer .redes {
     justify-content: space-evenly;
     align-items: center;
 }
-footer .redes svg {
+
+footer .redes button {
     width: 4vw;
     height: auto;
     margin-bottom: 1vw;
 }
-
+footer button:hover {
+    background: #649c6d;
+}
+footer button{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+footer button.voltar:hover {
+    background: #649c6d;
+}
+footer button.voltar{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
 footer .rodape {
     display: flex;
     justify-content: space-between;
     padding: 3vw 0 0 0;
+}
+.rodape p{
+    color: #f7f5f0;
 }
 
 @media only screen and (max-width: 600px){

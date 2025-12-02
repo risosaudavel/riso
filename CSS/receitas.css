@@ -22,9 +22,20 @@ h1 {
     height: auto;
 }
 
+header button.voltar:hover {
+    background: #649c6d;
+}
+header button.voltar{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 ul.menu {
     display: flex;
     gap: 2vw;
+    align-items: center;
 }
 
 header a {
@@ -127,12 +138,28 @@ footer .redes {
     align-items: center;
 }
 
-footer .redes svg {
+footer .redes button {
     width: 4vw;
     height: auto;
     margin-bottom: 1vw;
 }
-
+footer button:hover {
+    background: #649c6d;
+}
+footer button{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+footer button.voltar:hover {
+    background: #649c6d;
+}
+footer button.voltar{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
 footer .rodape {
     display: flex;
     justify-content: space-between;
