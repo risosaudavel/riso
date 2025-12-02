@@ -164,6 +164,12 @@ header a {
     width: 75%;
     padding-top: 3vw;
 }
+div.video{
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+    border-radius: 20px
+}
 
 /*FOOTER*/
 
