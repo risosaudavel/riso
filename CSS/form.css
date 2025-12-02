@@ -166,3 +166,72 @@ footer .rodape {
     justify-content: space-between;
     padding: 3vw 0 0 0;
 }
+
+@media only screen and (max-width: 600px){
+
+    
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 5vw;
+        margin-bottom: 2vw;
+    }
+    nav{
+        display: block;
+    }
+    header a{
+        font-size: 1.1rem;
+    }
+    .atual {
+    background-color: #cc6e3a;
+    padding: 5px 10px;
+    border-radius: 20px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+h2{
+    font-size: 1.5rem;
+}
+.banner p{
+    font-size: 1.3rem;
+}
+.question p{
+   font-size: 1.1rem;
+   color: #3d230b;
+}
+.question {
+    padding: 9vw;
+   box-sizing: content-box;
+}
+.question label{
+    font-size: 0.9rem;
+}
+.titulo-resultado{
+    font-size: 1.2rem;
+}
+#resultado{
+    text-align: left;
+font-size: 1.1rem;
+}
+
+    footer a, footer p{
+        font-size: 0.8rem;
+        padding: 1vw;
+    }
+    footer .rodape{
+        display: block;
+    }
+    footer .redes svg  {
+    width: 40px;
+    height: auto;
+    margin-bottom: 1vw;
+    }
+    .rodape p{
+        padding-bottom: 3vw;
+    }
+
+}

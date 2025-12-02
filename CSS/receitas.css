@@ -140,3 +140,29 @@ footer .rodape {
     justify-content: space-between;
     padding: 3vw 0 0 0;
 }
+@media only screen and (max-width: 600px) {
+
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 5vw;
+        margin-bottom: 2vw;
+    }
+    nav{
+        display: block;
+    }
+    header a{
+        font-size: 1.1rem;
+    }
+    .atual {
+    background-color: #cc6e3a;
+    padding: 5px 10px;
+    border-radius: 20px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+}
