@@ -229,6 +229,7 @@ footer .rodape {
     }
     .projeto ul{
         margin-bottom: 5vw;
+
     }
     footer a, footer p{
         font-size: 0.8rem;
@@ -247,5 +248,6 @@ footer .rodape {
     }
     .projeto button{
         padding: 3vw 4vw;
+        margin: 1vw;
     }
 }
