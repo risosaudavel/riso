@@ -1,5 +1,4 @@
-/*header*/
-
+/*HEADER*/
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,10 +17,11 @@ nav {
     padding: 1vw 8vw;
 }
 
-header h1{
-    width: 200px;
+h1 {
+    width: 250px;
     height: auto;
-}
+} 
+
 header button.voltar:hover {
     background: #649c6d;
 }
@@ -31,22 +31,35 @@ header button.voltar{
     border-radius: 20px;
     padding: 10px;
 }
-header ul {
+
+ul {
     display: flex;
     gap: 2vw;
     align-items: center;
 }
+button.logo:hover {
+    background: #649c6d;
+}
+ button.logo{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+ }
 
-header a {
+header button {
     color: #f7f5f0;
     font-weight: bold;
     font-size: 1.4rem;
 }
 
-header a.atual {
+.atual {
     background-color: #cc6e3a;
     padding: 10px 20px;
     border-radius: 20px;
+    color: #f7f5f0;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 /*main*/
@@ -108,10 +121,10 @@ h3{
     text-decoration: none;
     border-radius: 20px;
 }
-button:hover {
+.projeto button:hover {
     background: #d19270;
 }
-button{
+.projeto button{
     cursor: pointer;
     border: none;
 }
@@ -129,7 +142,6 @@ footer{
 footer .redes {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 footer .redes button {

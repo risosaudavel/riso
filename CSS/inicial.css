@@ -18,9 +18,10 @@ nav {
 }
 
 h1 {
-    width: 200px;
+    width: 250px;
     height: auto;
-}
+} 
+
 header button.voltar:hover {
     background: #649c6d;
 }
@@ -36,8 +37,17 @@ ul {
     gap: 2vw;
     align-items: center;
 }
+button.logo:hover {
+    background: #649c6d;
+}
+ button.logo{
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+ }
 
-header a {
+header button {
     color: #f7f5f0;
     font-weight: bold;
     font-size: 1.4rem;
@@ -47,6 +57,9 @@ header a {
     background-color: #cc6e3a;
     padding: 10px 20px;
     border-radius: 20px;
+    color: #f7f5f0;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
 
 /*MAIN*/
@@ -196,7 +209,6 @@ footer{
 footer .redes {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 footer .redes button {
@@ -204,6 +216,7 @@ footer .redes button {
     height: auto;
     margin-bottom: 1vw;
 }
+
 footer button:hover {
     background: #649c6d;
 }
