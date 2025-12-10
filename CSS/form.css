@@ -136,7 +136,7 @@ form{
 
 #resultado {
     display: none;
-    justify-content: center;
+    text-align: center;
     background: #ffffff;
     padding: 25px;
     border-radius: 12px;
